@@ -23,6 +23,10 @@ generatedBtnOne.addEventListener("click", (event) => {
     navigator.clipboard.writeText(content)
 })
 
+generatedBtnTwo.addEventListener("click", (event) => {
+    const content = generatedBtnTwo.textContent
+    navigator.clipboard.writeText(content)
+})
 
 function generateRandomElement () {
     let chLenght = characters.length
